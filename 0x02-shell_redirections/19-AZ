@@ -1,3 +1,2 @@
-
 #!/bin/bash
-cat | tr 'Ac' 'Ze'
+tr 'Ac' 'Ze'
