@@ -14,7 +14,7 @@ sudo chown -R "$USER":"$USER" /var/www/html
 sudo chmod -R 755 /var/www
 
 # Creating new index
-echo -e "Hello World!" >/var/www/html/index*.html
+echo -e "Hello World!" | dd status=none of=/var/www/html/index.nginx-debian.html
 
 # Restarting nginx
 sudo service nginx restart
