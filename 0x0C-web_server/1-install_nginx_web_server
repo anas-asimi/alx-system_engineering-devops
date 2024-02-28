@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Task 1. Install nginx web server
 
 # installing nginx service
 echo 'installing nginx service...'

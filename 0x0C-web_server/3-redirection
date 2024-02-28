@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# 3. Redirection
 
 # install nginx service
 echo -e "Updating and installing Nginx.\n"
