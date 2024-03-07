@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # what’s keeping your Ubuntu container’s Nginx installation from listening on port 8?
 # configures nginx to run and listen to port 80
-
 # update packages list
 sudo apt update
 # install nginx
