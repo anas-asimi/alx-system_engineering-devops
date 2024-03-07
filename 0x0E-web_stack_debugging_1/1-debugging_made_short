@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 # Changes port in Nginx
-# update packages list
 sudo apt update
-# install nginx
 sudo apt --yes --force-yes install nginx
-# start nginx
 service nginx start
