@@ -17,6 +17,6 @@ def number_of_subscribers(subreddit: str):
     if req.status_code == 200:
         subscribers = req.json().get("data").get("subscribers")
         if subscribers is None:
-            return 0 
+            return 0
         return subscribers
     return 0
